@@ -1,0 +1,393 @@
+.snippet:hover{
+    max-width:80vw;
+}*{
+    margin: 0%; 
+    box-sizing: border-box;
+}
+:root{
+    --fgcolor:#212121;
+    --bgcolor:#000000;
+    --fontcolor:#d2d2d2;
+    --selectcolor:rgb(116, 116, 116);
+    --shadowcolor:rgba(255, 255, 255, 0.273);
+}
+@font-face {
+    font-family: fixedsys;
+    src: url(Fixedsys.ttf);
+}
+html{
+    background-color: var(--bgcolor);
+    scroll-behavior: smooth;
+    font-family: fixedsys;
+    font-size:1.2em;
+}
+.totop{
+    position:fixed;
+    border-style: groove;
+    float: left;
+    padding: 1%;
+    margin: 1%;
+    bottom: 0;
+}
+h1, h2, h3, h6, li, p, a{
+    color: var(--fontcolor);
+    text-decoration: none;
+}
+li{
+    margin-left: 4%;
+}
+.header{
+    background-color: var(--fgcolor);
+    text-align: center;
+}
+.header > h1{
+    padding: 1%;
+}
+.navigation{
+    text-align: center;  
+    padding: 2%;
+    padding-bottom:4%;
+    padding-left: 0%;
+    padding-right: 0%;
+    background-color:var(--fgcolor);
+}
+.navigation > a{
+    padding: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
+    border-style:ridge;
+}
+a:hover{
+    border-color: var(--selectcolor);
+}
+.projects{
+    
+}
+.project{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    position:relative;
+    border-color: var(--fgcolor);
+}
+.project:hover{
+    transition: 400ms;
+    transform:scale(1.01);
+    box-shadow: 0px 0px 10px 10px var(--shadowcolor);
+}
+.project > h2{
+    background-color:var(--fgcolor);
+    padding: .5%;
+}
+.textbox{
+    padding: 1%;
+    width: 35%;
+    position: absolute;
+    word-wrap: break-word;
+}
+.project > img{
+    margin: 0;
+    padding: 0;
+    margin-left:70%;
+    width: 30%;
+
+}
+.project > a{
+    position:absolute;
+    padding: 1%;
+    border-style: ridge;
+    bottom: 5%;
+    left:1%;
+}
+.project > a:hover{
+    border-color: var(--selectcolor);  
+}
+footer > div{
+    margin-left: 50%;
+}
+footer > a{
+    position:absolute;
+    padding: 1%;
+    border-style: ridge;
+    bottom: 5%;
+    left:1%;   
+}
+.changelang{
+    margin-top:1%;
+    margin-left: 1%;
+    padding: 1%;
+    border-style: ridge;
+    display: inline-block;
+}
+@media screen and (max-width:1800px){
+    .project > a{
+        margin-left: 40%;
+    }
+    .totop{
+        background-color: #000000;
+    }
+}
+@media screen and (max-width:1514px){
+    .project{
+        font-size:medium;
+    }
+}
+@media screen and (max-width:1308px){
+    .project{
+        margin: 0%;
+        padding: 0%;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+    .project:hover{
+        transform: none;
+        box-shadow: none;   
+    }
+    .project > a{
+        margin-bottom: 8%;
+    }
+    .textbox{
+        padding: 1%;
+    width: 70%;
+    }
+    .textbox > ul{
+        font-size: smaller;
+    }
+
+    /*projects*/
+    .projectpage{
+        position: relative;
+        display: inline;
+        margin-top: 0%;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+    .projectview > video{
+        max-width: 55%;
+        clear:right;
+        float: right;
+    }
+    .totop{
+        margin-left: 80%;
+    }
+}
+@media screen and (max-width:812px){
+    .project{
+        font-size: large;
+    }
+    .project > a{
+        position: relative;
+        background-color: black;
+        margin: 0;
+        
+        border-style: ridge;
+        bottom: 0%;
+        left:0%;
+
+        position:absolute;
+        padding: 1%;
+        border-style: ridge;
+        bottom: 5%;
+        left:1%;
+    }
+    .project > img{
+        margin-left: 0%;
+        width: 100%;
+    }
+    .textbox{
+        position: relative;
+        width: 90%;
+    }
+    /*project page*/
+    .projectpage{
+        position: relative;
+        display: inline;
+        margin: 0%;
+        padding: 0%;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+    .projectpage > h2{
+        background-color:var(--fgcolor);
+        padding: .5%;
+    }
+    .projecttext{
+        font-size:112%;
+        width: 100%;
+    }
+    .projecttext{
+        padding-top: 1%;
+        padding-left: 1%;
+        margin-right: 0;
+        text-align: left;
+    }
+    .projectview{
+        position: static;
+        display: inline;
+    }
+    .projectview > img{
+        position:static;
+        display: inline;
+        
+        max-width: 100%;
+    }
+    .projectview > video{
+        position:static;
+        max-width: 100%;
+    }
+    .snippet > pre{
+        width: 99%;
+    }
+
+    .boi > img{
+        background-color: white;
+        image-rendering: pixelated;
+    }
+    .boi > img:hover{
+        transition: none;
+    background-color: none;
+    }
+}
+
+/*aboutme.html*/
+.boi{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    position:relative;
+    border-color: var(--fgcolor);
+}
+.boi > h2{
+    background-color:var(--fgcolor);
+    padding: .5%;
+}
+.boi > img{
+    margin: 0;
+    padding: 0;
+    margin-left:70%;
+    width: 30%;
+    image-rendering: pixelated;
+}
+.boi > img:hover{
+    transition: 2000ms;
+    background-color: white;
+}
+.textbox > a{
+    position:relative;
+    display:inline-flex;
+    padding: 1%;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-style: groove;
+}
+
+/*project page*/
+.projectpage{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+.projectpage > h2{
+    background-color:var(--fgcolor);
+    padding: .5%;
+}
+.projectpage > a{
+    position:relative;
+    display:inline-flex;
+    margin: 1%;
+    padding: 1%;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-style: groove;
+}
+.projecttext{
+    padding-top: 1%;
+    padding-left: 1%;
+    margin-right: 50%;
+    text-align: left;
+    scroll-snap-type: proximity;
+}
+.projectpage > .projecttext > p > a{
+    color: yellow;
+}
+.projecttext > p > a > img{
+    width: 50%;
+}
+.projecttext > img:hover{
+    transition: 400ms;
+    max-width: 150%; 
+}
+.projectview > img{
+    clear: right;
+    float: right;
+    max-width: 40%;
+}
+.projectview > video{
+    clear:right;
+    float: right;
+    max-width: 40%;
+}
+.projectview > img:hover{
+    transition: 400ms;
+    max-width: 50%;
+}
+.projectview > video:hover{
+    transition: 400ms;
+    max-width: 50%;
+}
+
+/*snippet colors*/
+.snippet{
+    padding-left: 1%;
+}
+.snippet > pre{
+    background-color: rgb(52, 52, 52);
+    margin-right: 50%;
+    height: 30vh;
+    overflow:auto;
+}
+.snippet > pre{
+    transition: 400ms;
+    margin-right: 0;
+    width: 100%;
+    height: 100%;
+}
+hr{
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+code > a{
+    background-color: black;
+    color: yellow;
+}
+code{
+    color: white;
+}
+.namespace{
+    color:#5a5a5a;
+}
+.class{
+    color: rgb(34, 154, 110);
+}
+.method{
+    color: #ffff8b;
+}
+.statement{
+    color:rgb(250, 127, 213);
+}
+.annotation{
+    color: green;
+}
+.type{
+    color: #4c5eba;
+}
+.localvar{
+    color:rgb(132, 190, 205);
+}
+.value{
+    color: #bbffb6;
+}
