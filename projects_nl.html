@@ -20,8 +20,6 @@
         <div class="projectview">
             <video loop autoplay controls src="projects/FishTankSandbox/fishtanksandboxgameplay1.webm"></video>
             <img src="projects/FishTankSandbox/fishgameplay.png" alt="">
-            <img src="projects/FishTankSandbox/fishgameplay.png" alt="">
-            <img src="projects/FishTankSandbox/fishgameplay.png" alt="">
         </div>
         <a href="https://github.com/Boil-1/FishTankSandBox" target="_blank">Repository</a>
         <div class="projecttext">
@@ -36,7 +34,7 @@
             <h3>The Tank</h3>
             <p>
                 Wanneer het spel start begin je met 1 vis die rond zwemt in het aquarium. Dit is altijd een rode vis.
-                Er zijn een hele boel verschillende vissen. Links boven in is een knop genaamd "spawn food" als het eten word gespawned
+                Links boven in is een knop genaamd "spawn food" als het eten word gespawned
                 zwemt de vis er naartoe en eet hij het op. Elke keer nadat de vis 5 stukken eten heeft gegeten groeit hij.
                 Wanneer 2 vissen langs elkaar zwemmen is het mogelijk dat 1 van hun een ei legt.
                 Als je de vis geen eten geeft gaat hij DOOD. De andere knop links boven in is de "go to pond" knop. Wanneer deze is ingedrukt
@@ -60,12 +58,12 @@
             <p>
                 Wanneer het spel start een vis game object word <a href="#instantiatefish">geinstantieerd op een willekeurige positie.</a> Daarna word hij toegevoegd aan een instantie van de <a href="#fishclass">fish class</a> <br>
                 Als de spawn food knop is ingedrukt een bool word aangezet en wanneer de linker muis knop word ingedrukt <br>
-                het food game object <a href="#instantiatefood">word geinstantieerd</a> op de positie van de muis  en word toegevoegd aan de food lijst. <br>
+                het food game object <a href="#instantiatefood">word geinstantieerd</a> op de positie van de muis  en word toegevoegd aan de food list. <br>
                 Al het gedrag van de vis draait in een functie genaamd <a href="#fishbehaviour">FishBehaviour()</a> behalve het gedeelte waarmee de eieren gelegd worden. <br>
                 Dit gedeelte draait in de <a href="#egging">Egging()</a> functie. In de FishBehaviour functie worden de lucht bubbels geinstantieerd, de statestieken worden bij gehouden, <br>
                 de sprite word <a href="#flipped">geflipt</a> afhankelijk als de pos.x groter is dan zijn eigen x positie. Elke keer als de vis bij het punt aankomt waar hij heen zwemt <br>
-                1 waarde word afgetrokken van de hunger waarde. Deze functie zorgt er ook voor dat de vissen <a href="#movetofood">naar het eten toe zwemmen</a> als ze dichtbij genoeg zijn. <br>
-                Wanneer de vis dichtbij genoeg is bij het food game object word het vernietigt en uit de food lijst gehaald. De grow waarde neemt toe met 1. <br>
+                word 1 afgetrokken van de hunger waarde. Deze functie zorgt er ook voor dat de vissen <a href="#movetofood">naar het eten toe zwemmen</a> als ze dichtbij genoeg zijn. <br>
+                Wanneer de vis dichtbij genoeg is bij het food game object word het vernietigt en uit de food list gehaald. De grow waarde neemt toe met 1. <br>
                 Afhankelijk van de hunger waarde de beweeg snelheid word veranderd, dit word gedaan in een <a href="#switchstatement">switch statement.</a> 
             </p>
             <br>

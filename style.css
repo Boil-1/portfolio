@@ -1,6 +1,4 @@
-.snippet:hover{
-    max-width:80vw;
-}*{
+*{
     margin: 0%; 
     box-sizing: border-box;
 }
@@ -174,7 +172,7 @@ footer > a{
 }
 @media screen and (max-width:812px){
     .project{
-        font-size: large;
+        font-size:large;
     }
     .project > a{
         position: relative;
@@ -213,7 +211,7 @@ footer > a{
         padding: .5%;
     }
     .projecttext{
-        font-size:112%;
+        font-size:80%;
         width: 100%;
     }
     .projecttext{
@@ -226,18 +224,29 @@ footer > a{
         position: static;
         display: inline;
     }
-    .projectview > img{
+    .projectpage > .projectview > img{
         position:static;
         display: inline;
-        
-        max-width: 100%;
+        max-width: 50vw;
     }
-    .projectview > video{
+    .projectpage > .projectview > img:hover{
+        transition: 0ms;
+        max-width: 50vw; 
+    }
+    .projectpage > .projectview > video{
         position:static;
-        max-width: 100%;
+        max-width: 50vw;
+    }
+    .projectpage > .projectview > video:hover{
+        transition: 0ms;
+        max-width: 50vw; 
     }
     .snippet > pre{
         width: 99%;
+    }
+    .projectpage > .snippet > pre:hover{
+        transition: 0ms;
+        width: 100%;
     }
 
     .boi > img{
