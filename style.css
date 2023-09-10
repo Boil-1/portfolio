@@ -1,5 +1,6 @@
 *{
-    margin: 0%; 
+    margin: 0;
+    padding: 0; 
     box-sizing: border-box;
 }
 :root{
@@ -58,102 +59,19 @@ li{
 a:hover{
     border-color: var(--selectcolor);
 }
-.projects{
-    
-}
-.project{
-    margin-top: 5%;
-    margin-bottom: 5%;
-    margin-left: 10%;
-    margin-right: 10%;
-    position:relative;
-    border-color: var(--fgcolor);
-}
-.project:hover{
-    transition: 400ms;
-    transform:scale(1.01);
-    box-shadow: 0px 0px 10px 10px var(--shadowcolor);
-}
-.project > h2{
-    background-color:var(--fgcolor);
-    padding: .5%;
-}
-.textbox{
-    padding: 1%;
-    width: 35%;
-    position: absolute;
-    word-wrap: break-word;
-}
-.project > img{
-    margin: 0;
-    padding: 0;
-    margin-left:70%;
-    width: 30%;
-
-}
-.project > a{
-    position:absolute;
-    padding: 1%;
-    border-style: ridge;
-    bottom: 5%;
-    left:1%;
-}
-.project > a:hover{
-    border-color: var(--selectcolor);  
-}
-footer > div{
-    margin-left: 50%;
-}
-footer > a{
-    position:absolute;
-    padding: 1%;
-    border-style: ridge;
-    bottom: 5%;
-    left:1%;   
-}
 .changelang{
     margin-top:1%;
     margin-left: 1%;
     padding: 1%;
     border-style: ridge;
-    display: inline-block;
+    display: inline-flex;
 }
 @media screen and (max-width:1800px){
-    .project > a{
-        margin-left: 40%;
-    }
     .totop{
         background-color: #000000;
     }
 }
-@media screen and (max-width:1514px){
-    .project{
-        font-size:medium;
-    }
-}
 @media screen and (max-width:1308px){
-    .project{
-        margin: 0%;
-        padding: 0%;
-        margin-left: 0%;
-        margin-right: 0%;
-    }
-    .project:hover{
-        transform: none;
-        box-shadow: none;   
-    }
-    .project > a{
-        margin-bottom: 8%;
-    }
-    .textbox{
-        padding: 1%;
-    width: 70%;
-    }
-    .textbox > ul{
-        font-size: smaller;
-    }
-
-    /*projects*/
     .projectpage{
         position: relative;
         display: inline;
@@ -171,33 +89,6 @@ footer > a{
     }
 }
 @media screen and (max-width:812px){
-    .project{
-        font-size:large;
-    }
-    .project > a{
-        position: relative;
-        background-color: black;
-        margin: 0;
-        
-        border-style: ridge;
-        bottom: 0%;
-        left:0%;
-
-        position:absolute;
-        padding: 1%;
-        border-style: ridge;
-        bottom: 5%;
-        left:1%;
-    }
-    .project > img{
-        margin-left: 0%;
-        width: 100%;
-    }
-    .textbox{
-        position: relative;
-        width: 90%;
-    }
-    /*project page*/
     .projectpage{
         position: relative;
         display: inline;
@@ -224,7 +115,16 @@ footer > a{
         position: static;
         display: inline;
     }
+    .projectviewindex{
+        position: static;
+        display: inline;
+    }
     .projectpage > .projectview > img{
+        position:static;
+        display: inline;
+        max-width: 50vw;
+    }
+    .projectpage > .projectviewindex > img{
         position:static;
         display: inline;
         max-width: 50vw;
@@ -333,6 +233,11 @@ footer > a{
     clear: right;
     float: right;
     max-width: 40%;
+}
+.projectviewindex > img{
+    clear: right;
+    float: right;
+    max-width: 30%;
 }
 .projectview > video{
     clear:right;
