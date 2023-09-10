@@ -127,7 +127,7 @@ a:hover{
     .projectpage > .projectviewindex > img{
         position:static;
         display: inline;
-        max-width: 50vw;
+        max-width: 100vw;
     }
     .projectpage > .projectview > img:hover{
         transition: 0ms;
