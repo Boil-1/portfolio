@@ -1,0 +1,210 @@
+{
+    "title":{
+        "nl":"Portfolio Homepagina",
+        "en":"Portfolio Homepage"
+    },
+    "aboutmelink":{
+        "nl":"Over Mij & Contact",
+        "en":"About Me & Contact"
+    },
+    "favoritesasc":{
+        "nl":"favorieten ↑",
+        "en":"favorites ↑"
+    },
+    "favoritesdes":{
+        "nl":"favorieten ↓",
+        "en":"favorites ↓"
+    },
+    "dateasc":{
+        "nl":"datum ↑",
+        "en":"date ↑"
+    },
+    "datedes":{
+        "nl":"datum ↓",
+        "en":"date ↓"
+    },
+    "all":{
+        "nl":"alles",
+        "en":"all"
+    },
+    "csharp":{
+        "nl":"C#",
+        "en":"C#"
+    },
+    "cpp":{
+        "nl":"C++",
+        "en":"C++"
+    },
+    "blueprints":{
+        "nl":"blueprints",
+        "en":"blueprints"
+    },
+    "js":{
+        "nl":"javascript",
+        "en":"javascript"
+    },
+    "projectpage":{
+        "aboutmeproject":{
+            "projectitleaboutme":{
+                "nl":"Over Mij",
+                "en":"About Me"
+            },
+            "projecttextaboutme":{
+                "nl":"Hallo, mijn naam is Boi. Ik ben een gamedeveloper uit Nederland. Je kan meer lezen bij over mij",
+                "en":"Hello, my name is Boi. I'm a gamedeveloper from the Netherlands. You can read more on my about me"
+            },
+            "projectlinkaboutme":{
+                "nl":"Over Mij",
+                "en":"About Me"
+            }
+        },
+        "fishtanksandbox":{
+            "projecttitlefishtanksandbox":{
+                "nl":"Fish Tank Sandbox",
+                "en":"Fish Tank Sandbox"
+            },
+            "projectlinkfishtanksandbox":{
+                "nl":"meer informatie",
+                "en":"more info"
+            },
+            "projecttextfishtanksandbox":{
+                "nl":"Heb jij altijd al je eigen aquarium willen hebben vol met vissen? Gooi je haak uit en probeer het zelf! Breng de vis naar zijn nieuwe huis nadat je hem gevangen hebt en hou hem in leven.",
+                "en":"Did you always wanted to have your own aquarium full of fish? Cast out your hook and try your luck! After you've caught a fish bring it to its new home and keep it alive."
+            },
+            "projectfeatures":{
+                "nl":"Features",
+                "en":"Features"
+            },
+            "Features":{
+                "nl":[
+                    "Je kan nieuwe vissen vangen uit de vijver",
+                    "Voer je vissen",
+                    "De gevangen vissen kunnen zich voortplanten",
+                    "Er zijn verschillende soorten vissen",
+                    "Zie de statastieken van de vis"
+                ],
+                "en":[
+                    "You can catch new fish from the pond",
+                    "The fish in the tank can be fed",
+                    "Fish in the tank can reproduce",
+                    "There are different kind of fish",
+                    "See the statistics of the fish"
+                ]
+            }
+        },
+        "antsim":{
+            "projecttitleantsim":{
+                "nl":"Ant Sim",
+                "en":"Ant Sim"
+            },
+            "projectlinkantsim":{
+                "nl":"meer informatie",
+                "en":"more info"
+            },
+            "projecttextantsim":{
+                "nl":"Kijk ze gaan, struinen over het veld en op zoek naar eten om aan de koniging te geven. Wanneer ze een lijk vinden wordt het verslonden in seconden.",
+                "en":"Watch them go wandering around and scavenging for food delivering it to the queen. When the ants find a carcas it gets devoured is seconds."
+            },
+            "Features":{
+                "nl":[
+                    "De mieren kunnen eten vinden",
+                    "De mieren kunnen het terug brengen naar de mierenhoop",
+                    "Insecten spawnen op willekeurige locaties"
+                ],
+                "en":[
+                    "Ants can find food",
+                    "Ants bring back the food to the ant hill",
+                    "Bugs spawn on random locations"
+                ]
+            }
+        },
+        "towerdefense":{
+            "projecttitletowerdefense":{
+                "nl":"Tower Defense",
+                "en":"Tower Defense"
+            },
+            "projectlinktowerdefense":{
+                "nl":"meer informatie",
+                "en":"more info"
+            },
+            "projecttexttowerdefense":{
+                "nl":"Alone in a scorching desert, defending against hordes on enemies. With the help of multiple towers and upgrades how long can you survive?",
+                "en":"Alleen in een schroeiende woestijn, verdedig jezelf tegen hordes vijanden. Hoe lang overleef jij het met de hulp van meerdere torens en upgrades?"
+            },
+            "Features":{
+                "nl":[
+                    "Je hebt een speelbaar karakter",
+                    "Je kan verschillende soorten torens plaatsen",
+                    "Verdien geld door vijanden te doden",
+                    "Je kan verschillende upgrades voor je torens en karakter kopen",
+                    "Er is een geld cheat"
+                ],
+                "en":[
+                    "You have a controlable character",
+                    "You can place different kind of towers",
+                    "If you shoot enemies you earn money",
+                    "You can get different kind of upgrades for your character and the towers",
+                    "There is a money cheat"
+                ]
+            }
+        },
+        "inputoutput":{
+            "projecttitleinputoutput":{
+                "nl":"Input Output Project",
+                "en":"Input Output Project"
+            },
+            "projectlinkinputoutput":{
+                "nl":"meer informatie",
+                "en":"more info"
+            },
+            "projecttextinputoutput":{
+                "nl":"Het derde project gemaakt tijdens mijn 2de jaaar op het media college Amsterdam. Een flipperkast gemaakt met arduino en Unity",
+                "en":"Third project made during my second year at media college amsterdam. A pinball machine made with arduino and Unity."
+            },
+            "Features":{
+                "nl":[
+                    "See your highscore",
+                    "Multiple ways to score points"
+                ],
+                "en":[
+                    "Zie je highscore",
+                    "Meerdere manieren om punten te scoren" 
+                ]
+            }
+        },
+        "afterthefallverticalslice":{
+            "projecttitleafterthefall":{
+                "nl":"After the Fall Vertical Slice",
+                "en":"After the Fall Vertical Slice"
+            },
+            "projectlinkafterthefall":{
+                "nl":"meer informatie",
+                "en":"more info"
+            },
+            "projecttextafterthefall":{
+                "nl":"Een VR project gemaakt in Unreal engine 5. Dit deden we met 22 mensen waarvan de helft artists.",
+                "en":"A VR project made in Unreal engine 5 made in the second year with a team of 22, half of them artists."
+            },
+            "Features":{
+                "nl":[
+                    "Pak voorwerpen op van veraf, super handig!"
+                ],
+                "en":[
+                    "Pick up items from further away, so convient!"
+                ]
+            }
+        }
+    }
+
+    
+
+
+
+
+
+
+
+
+
+
+}
